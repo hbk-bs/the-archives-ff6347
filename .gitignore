@@ -70,7 +70,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist/
-!dist/modules/@ff6347/p5-easing/dist/
+!modules/@ff6347/p5-easing/dist
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
