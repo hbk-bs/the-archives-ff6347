@@ -1,13 +1,34 @@
-body {
-	height: 100dvh;
-	width: 100dvw;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
 
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Geometric Humanist */
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro,
+    sans-serif;
+  font-weight: normal;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
